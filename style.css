@@ -1,0 +1,117 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #77B6EA, #5D9CEC);
+    padding: 60px 0;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+}
+
+#about, #contact {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+}
+
+#hobbies .cards, #projects .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card a {
+    color: #5D9CEC;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-links a {
+    margin: 0 15px;
+    color: #5D9CEC;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
